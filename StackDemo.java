@@ -8,7 +8,7 @@ public class StackDemo {
 	public static Node push(Node top)
 	{
 		Scanner sc = new Scanner(System.in);
-    	System.out.println("Enter the number of new node: ");
+    		System.out.println("Enter the number of new node: ");
 		int data = sc.nextInt();
 		Node node = new Node();
 		node.info = data;
