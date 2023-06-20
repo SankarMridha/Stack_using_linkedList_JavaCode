@@ -19,34 +19,34 @@ public class StackDemo {
 	public static Node pop(Node top)
 	{
 		if(top==null)
-    	{
-    		System.out.println("Stack underflow, delete not possible");
-    	}
-    	else
-    	{
-    		Node q = top;
-    		top = top.next;
-    		System.out.println("Deleted node info-- data value: "+q.info);
-    	}
+    		{
+    			System.out.println("Stack underflow, delete not possible");
+    		}
+    		else
+    		{
+    			Node q = top;
+    			top = top.next;
+    			System.out.println("Deleted node info-- data value: "+q.info);
+    		}
 		return top;
 	}
 	public static void display(Node top)
-    {
-    	Node p = top;
-    	if(top==null)
     	{
-    		System.out.println("Stack underflow");
-    	}
-    	else
-    	{
-    		System.out.println("Node details: \t value");
-    		while(p!=null)
+    		Node p = top;
+    		if(top==null)
     		{
-    			System.out.println(" \t\t "+p.info);
-    			p = p.next;
+    			System.out.println("Stack underflow");
     		}
-    	}
-    }
+    		else
+    		{
+    			System.out.println("Node details: \t value");
+    			while(p!=null)
+    			{
+    				System.out.println(" \t\t "+p.info);
+    				p = p.next;
+    			}
+    		}
+   	 }
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
