@@ -1,3 +1,11 @@
+/*
+Dynamic Implementation of STACK (Linked List Implementation)
+A stack is implemented dynamically by using a Linked list where each node in the linked list has
+two parts, the data element and the reference to the next element of the stack.
+*/
+/*
+Code created by Sankar Kumar Mridha, date: 19.06.2023
+*/
 import java.util.Scanner;
 class Node
 {
